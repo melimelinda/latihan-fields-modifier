@@ -10,7 +10,7 @@ public class BankATest{
 		System.out.println(" ");
 		
 		BankA n2 = new BankA();
-		System.out.println("no. urut = "+n2.no);
+		System.out.println("no. urut = "+n2.no++);
 		n2.nama = "putri";
 		System.out.println("nama = "+n2.nama);
 		n2.menarikSaldo(2, 20);
