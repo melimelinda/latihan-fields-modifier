@@ -1,6 +1,7 @@
 public class BankA{
 	int nasabah;
 	final int minimums=50;
+	final String bank="Bank A";
 	private int saldo=100;
 	static long no=1;
 	String nama;
@@ -9,7 +10,7 @@ public class BankA{
 
 	
 
-	void menarikSaldo(int pilcara, int ambil){
+	void tarikSaldo(int pilcara, int ambil){
 		
 			if (pilcara==1){
 
